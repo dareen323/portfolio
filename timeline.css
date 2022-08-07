@@ -8,7 +8,6 @@
       font-size: 40px;
       position: relative;
       padding-bottom: 20px;
-      margin-bottom: 20px;
       font-weight: 600;
       }
       
@@ -87,3 +86,18 @@
                 }
                
               }
+               
+      @media only screen and (max-width: 600px) {
+      
+        ul.timeline-list:before {
+         display: none;
+         margin: 0;
+     
+          }
+          ul.timeline-list li:before {
+            display: none;
+            margin: 0;
+        }
+        ul.timeline-list li .timeline_content {
+          width: 100%;
+        }
