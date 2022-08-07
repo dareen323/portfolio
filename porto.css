@@ -7,6 +7,7 @@
 .bgimage {
   height:100vh;
   background: url('image/6137afc480661f58eb393ac63fb6fb6c.jpg');
+background-position: left top 45px;
   background-size:cover;
   position:relative;
 }
@@ -51,7 +52,6 @@ to {    transform: translate(0px,0px); }
 
 #about{
   padding: 20px;
-  
   background-color:#c19898;
   margin: 10px;
   box-shadow: 10px 10px 10px 5px rgb(63, 57, 65);
@@ -97,10 +97,9 @@ to {    transform: translate(0px,0px); }
 
 
  #portfolio{
-
-  background-color:;
+   background-color: #e7d7e9;
   margin-top: 70px;
-box-shadow: 5px 5px 5px 5px rgb(63, 57, 65);
+box-shadow: 5px 5px rgb(63, 57, 65);
  }
 
 .portfolioContent{
@@ -122,11 +121,14 @@ background-color: #c19898;"
 /* footer */
 #footer {
   margin-top: 100px;
-  background-color: #c8b1b1;
+  background-color: rgb(201, 185, 208);
   text-align: center;
   height: 90px;
 }
-
+.contact{
+  display: flex;
+  justify-content: end;
+}
 @media only screen and (max-width: 600px) {
 
 .cont {
@@ -139,8 +141,5 @@ background-color: #c19898;"
     font-size: 3rem;
     }
     
-  }
-
-
   
 
