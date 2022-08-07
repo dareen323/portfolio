@@ -1,0 +1,146 @@
+/* navbar */
+.nav-link{
+  color: #000000;
+}
+
+/* main banner */
+.bgimage {
+  height:100vh;
+  background: url('image/6137afc480661f58eb393ac63fb6fb6c.jpg');
+  background-size:cover;
+  position:relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -45%);
+ color: #7f5656;
+ font-family: cursive; 
+
+}
+
+.hero_title {
+  font-size: 4rem;
+  font-weight: bolder;
+  animation-name: hero;
+  animation-duration: 1.5s;
+
+}
+@keyframes hero {
+from {   transform: translate(-200px,-200px);}
+to {    transform: translate(0px,0px); }
+}
+
+.hero_desc {
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  animation-name: desc;
+  animation-duration: 1.5s;
+}
+
+@keyframes desc {
+from {   transform: translate(100px,100px);}
+to {    transform: translate(0px,0px); }
+}
+
+/* About section */
+
+#about{
+  padding: 20px;
+  
+  background-color:#c19898;
+  margin: 10px;
+  box-shadow: 10px 10px 10px 5px rgb(63, 57, 65);
+  
+  }
+.imageAboutPage {
+  width:90%;
+ 
+}
+/* skills in web developer */
+.cont{
+  display: flex;   
+ flex-direction:row;
+  margin-top: 100px;
+  /* align-items: flex-start; */
+
+ }
+
+ .cont div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  
+ }
+ .cont div p{
+     font-weight:bolder;
+     text-align: center;
+     
+ }
+ .cont div img{
+  width: 40%;
+  text-align: center;
+ }
+ span{
+     margin-top: 10%;
+     font-size: 15px;
+     font-weight: lighter;
+     color: rgb(60, 56, 56);
+ }
+
+/* project */
+
+
+ #portfolio{
+
+  background-color:;
+  margin-top: 70px;
+box-shadow: 5px 5px 5px 5px rgb(63, 57, 65);
+ }
+
+.portfolioContent{
+background-color: #c19898;"
+}
+.portfolioContent:hover{
+  box-shadow: 10px 10px 10px 5px rgb(63, 57, 65);
+}
+.card-text{
+  font-size:  1.2rem;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.color{
+  background-color: #ede1ee;
+  border: 1px solid;
+  color: rgb(10, 10, 8);
+  padding: 10px;
+}
+/* footer */
+#footer {
+  margin-top: 100px;
+  background-color: #c8b1b1;
+  text-align: center;
+  height: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.cont {
+   flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 290px) {
+
+  .hero_title {
+    font-size: 3rem;
+    }
+    
+  }
+
+
+  
+
